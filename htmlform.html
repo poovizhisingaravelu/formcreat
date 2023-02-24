@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="htmlform.css">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+    <center>
+        <h1>HTML FORM</h1>
+        <label class="space">Firstname</label><input type="text"/>
+        <br><br>
+        <label class="space">Lastname</label><input type="text"/>
+        <br><br>
+        <label class="space">Address</label><input type="text"/>
+        <br><br>
+        <label class="space">Pincode</label><input type="number"/>
+        <br><br>
+        <label class="space">Gender</label>
+        <input type="radio"><label>Female</label>
+        <input type="radio"><label>Male</label>
+        <br><br>
+        <label>Food</label>
+        <input class="check" type="checkbox"><label>Briyani</label>
+        <br>
+        <input class="check" type="checkbox"><label>Chapathi</label>
+        <br>
+        <input  class="check" type="checkbox"><label>Meals</label>
+        <br>
+        <input class="check" type="checkbox"><label>Veg</label>
+        <br>
+        <input class="check" type="checkbox"><label>Burger</label>
+        <br><br>
+        <label class="space">State</label><input type="text"/>
+        <br><br>
+        <label class="space ">Country</label><input type="text"/>
+        <br><br>
+        <button onclick="myFunction()">SUBMIT</button>
+
+    </center>
+    </form>
+    <script>
+        function myFunction() {
+  alert("Hello $Firstname your detail saved");
+}
+    </script>
+</body>
+</html>
